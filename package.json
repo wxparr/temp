@@ -1,11 +1,14 @@
 {
-  "name": "constellation-react",
+  "name": "devices-react",
   "homepage": "https://wxparr.github.io/github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "15.6.1",
-    "react-dom": "15.6.1"
+    "react": "^16.3.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.3.2",
+    "react-motion": "^0.5.2",
+    "react-scripts": "1.1.4"
   },
   "devDependencies": {
     "gh-pages": "1.0.0",
