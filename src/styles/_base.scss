@@ -1,0 +1,90 @@
+html,
+body {
+    font-family: $font;
+    font-weight: $font-weight-normal;
+    font-size: $unit;
+}
+
+body,
+#root,
+#sky,
+.constellation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#sky {
+    background: -webkit-linear-gradient(#319DF0 30%, #033d5e);
+    background: -moz-linear-gradient(#319DF0 30%, #033d5e);
+    background: -o-linear-gradient(#319DF0 30%, #033d5e);
+    background: linear-gradient(#319DF0 30%, #033d5e);
+}
+
+.constellation {
+    z-index: 1000;
+}
+
+// SVG star
+.star {
+    //
+}
+
+.star__outer-glow {
+    fill: yellow;
+}
+
+.stop_color {
+    stop-color:#7a7d77;
+    stop-opacity:1;
+}
+
+.my_elipse {
+    fill:#d3d3d3;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:#bababa;
+    stroke-width:0.99999994;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+}
+
+.elipse {
+    fill:rgb(235, 15, 28);
+    stroke-width:2;
+    stroke:rgb(0,0,0);
+    stroke-opacity:0.9;
+    opacity:0.9;
+}
+.elipse_border {
+    stroke-width:2;
+    stroke:rgb(0,0,0);
+    stroke-opacity:0.3;
+    opacity:0.3;
+    margin-top:3px;
+}
+.star__inner-glow {
+    fill: white;
+}
+
+.star__tail {
+    fill: white;
+    opacity: 0.6;
+}
+
+// Connecting line
+.connector {
+    stroke: $light-blue;
+    stroke-width: 2.5;
+    opacity: 0.95;
+}
